@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RJ Token - Aplikasi Rokok</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <button onclick="toggleMenu()" class="menu-btn">☰</button>
+    <nav id="menu">
+      <ul>
+        <li onclick="navigate('mine')">Menambang</li>
+        <li onclick="navigate('withdraw')">Menarik</li>
+        <li onclick="navigate('income')">Pendapatan</li>
+        <li onclick="navigate('swap')">Swap</li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main">
+    <h1>🚬 RJ Token Rokok App</h1>
+    <button onclick="analyzeToken()">Klik Analisis Token "RJ"</button>
+
+    <div id="content">
+      <h2>Selamat datang di aplikasi RJ Token</h2>
+      <p>Gunakan menu di kiri atas untuk menambang, menarik, melihat pendapatan, atau menukar token ke Diamond 💎</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
